@@ -4,7 +4,7 @@ The first half of the chalenge revolves around visualization of labour data on S
 
 The second half of the challenge revolves around determining how skills relate to various jobs
 
-For this the jobs csv was parsed and the count of "key words" in the role preferred requirements was used as a proxy for how likely that skill is required for that specific work based on the job description. For example, for Hardware Engineering roles, the most important factor was having an engineering degree or Science Degree, followed by knowledge of Manufacturing and Design.
+For this, the job skills csv was parsed and the count of "key words" in the preferred requirements was used as a proxy for how important that skill is for that specific work. This was accomplished by measuring the frequency of non-trivial words in the preferred skills for the various jobs types. Ie; the words preferred </b>qualifications column was mapped to the job category column</b>. For example, for Hardware Engineering roles, the most important factor was having an engineering degree or Science Degree, followed by knowledge of Manufacturing and Design.
 
 This data was represented on a pie chart. It can be interpreted as how important certain skills are for that specific job type. For example, in marketing and communications, having a BA or BS is the most import factor as they account for 75% of the total decision.
 
